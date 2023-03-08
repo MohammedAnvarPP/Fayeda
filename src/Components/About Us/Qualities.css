@@ -1,0 +1,30 @@
+.Qualities-column{
+    position: relative;
+    width: 30%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Qualities-field{
+    padding: 35px 40px;
+    border: 1px solid #E4E4E4;
+}
+
+.image-fluid{
+    width: 30%;
+}
+.about-content-heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-heading{
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #375237;
+}
+.about-content-heading p{
+    font-size: 1em;
+}

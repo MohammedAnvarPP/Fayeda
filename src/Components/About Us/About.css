@@ -52,12 +52,11 @@ body {
   
 }
 .row{
-    display: flex;
-   
+    display: flex; 
     flex-direction: row;
     margin-right: 10px;
     margin-left: 10px;
-    
+    margin-bottom: 8rem;
 }
 .image-column{
     position: relative;
@@ -84,4 +83,12 @@ h2{
 .section p{
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
+}
+.btn-contact{
+  background-color: #d38e26;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  outline: none;
+  border-radius: 7px;
 }
