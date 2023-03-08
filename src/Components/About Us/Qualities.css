@@ -1,5 +1,4 @@
 .Qualities-column{
-    position: relative;
     width: 30%;
     min-height: 1px;
     padding-right: 15px;
@@ -27,4 +26,13 @@
 }
 .about-content-heading p{
     font-size: 1em;
+}
+@media screen and (max-width:480px) {
+    .Qualities-column{
+        padding: 2rem;
+        width: 100%;
+    }
+    .Qualities-field{
+        padding: 0;
+    }
 }

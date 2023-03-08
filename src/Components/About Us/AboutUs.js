@@ -20,7 +20,7 @@ const AboutUs = () => {
       </div>
       <section className="about-main-block-two ">
         <div className="container">
-          <div className="row">
+          <div className="about-row">
             <div className="image-column">
               <div className="image-field">
                 <img
@@ -47,7 +47,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="row" style={{ marginLeft: "8rem" }}>
+          <div className="row" >
             <Qualities
               icon="https://cdn-icons-png.flaticon.com/512/2491/2491921.png"
               heading="Our Strategy"
