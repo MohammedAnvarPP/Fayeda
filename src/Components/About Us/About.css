@@ -1,36 +1,87 @@
-*{
-    box-sizing: border-box;
+.about {
+  width: 100vw;
 }
-body{
-    margin: 0;
-    padding: 0;
+.page-banner-main-block {
+  position: relative;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-image: url("https://img.freepik.com/free-photo/top-view-white-plane-green-background_23-2148971056.jpg?w=1380&t=st=1678245482~exp=1678246082~hmac=623051a1ab9b3f229fabacdfab53c5ed53f02a4d3d8f2dc9e7f466b141b22792");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.page-banner-main-block{
-    text-align: center;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    background-image: url("https://img.freepik.com/free-photo/top-view-white-plane-green-background_23-2148971056.jpg?w=1380&t=st=1678245482~exp=1678246082~hmac=623051a1ab9b3f229fabacdfab53c5ed53f02a4d3d8f2dc9e7f466b141b22792");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.container{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.page-banner-main-block .page-banner-heading {
+  font-size: 50px;
+}
+.breadcrumb {
+  background-color: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
 
+.about-main-block-two {
+  width: 100%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+  
 }
-.page-banner-main-block .page-banner-heading{
-    font-size: 50px;
-}
-.breadcrumb{
-    background-color: inherit;
-    font-size: 14px;
-    text-transform: uppercase;
+.row{
     display: flex;
-    justify-content: center;
-    list-style: none;
+   
+    flex-direction: row;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.image-column{
+    position: relative;
+    width: 50%;
+    padding-right: 53px;
+    padding-left: 60px;
+}
+.content-column{
+    position: relative;
+    width: 50%;
+    min-height: 1px;
+    padding-right: 10rem;
+    
+}
+.image-about{
+    max-width: 100%;
+    
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #234;
+    font-size: 30px;
+}
+.section p{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
 }
