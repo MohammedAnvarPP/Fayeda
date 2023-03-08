@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.page-banner-main-block{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/top-view-white-plane-green-background_23-2148971056.jpg?w=1380&t=st=1678245482~exp=1678246082~hmac=623051a1ab9b3f229fabacdfab53c5ed53f02a4d3d8f2dc9e7f466b141b22792");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.page-banner-main-block .page-banner-heading{
+    font-size: 50px;
+}
+.breadcrumb{
+    background-color: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}

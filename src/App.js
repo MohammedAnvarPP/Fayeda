@@ -1,7 +1,9 @@
+import AboutUs from "./Components/About Us/AboutUs";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">fayeda</header>
+    <AboutUs/>
     </div>
   );
 }
