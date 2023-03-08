@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="page-banner-block">
           <ol className="breadcrumb">
             <li>
-              <a href="#void">Home</a>
+              <a href="#void">Homed</a>
             </li>
             <li className="active">About us</li>
           </ol>
