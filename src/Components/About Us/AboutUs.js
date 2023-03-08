@@ -31,7 +31,7 @@ const AboutUs = () => {
                             <h2 className="section-heading">
                                 {"over 20 Years Of Experience in Expert Services"}
                             </h2>
-                            <p>There anyone who loves or pursues nor desires to obtain pain of itself, bet it is pain, but because occasionally can packages as their default who loves or pursues nor desires to obtain pain of the hellium.</p>
+                            <p>There anyone who loves or pursues nor desires to obtain pain of itself,, bet it is pain, but because occasionally can packages as their default who loves or pursues nor desires to obtain pain of the hellium.</p>
                         </div>
                     </div>
                 </div>
