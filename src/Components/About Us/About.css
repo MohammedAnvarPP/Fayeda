@@ -40,47 +40,47 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
-  
 }
-.row{
-    display: flex; 
-    flex-wrap: wrap;
-    margin-right: 10px;
-    margin-left: 8rem;
-    margin-bottom: 8rem;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-left: 8rem;
 }
-.about-row{
-  display: flex; 
+.about-row {
+  display: flex;
   flex-direction: row;
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 8rem;
 }
-.image-column{
-    width: 50%;
-    padding-right: 53px;
-    padding-left: 60px;
+.image-column {
+  width: 50%;
+  padding-right: 53px;
+  padding-left: 60px;
 }
-.content-column{
-    width: 50%;
-    min-height: 1px;
-    padding-right: 10rem;
-    
+.content-column {
+  width: 50%;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
-.image-about{
-    max-width: 100%;
-    
+
+.image-about {
+  max-width: 100%;
 }
-h2{
-    font-family: 'Poppins', sans-serif;
-    color: #234;
-    font-size: 30px;
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #234;
+  font-size: 30px;
 }
-.section p{
-    font-size: 19px;
-    font-family: 'Roboto', sans-serif;
+.section p {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
 }
-.btn-contact{
+.btn-contact {
   background-color: #d38e26;
   border: none;
   width: 8rem;
@@ -88,22 +88,53 @@ h2{
   outline: none;
   border-radius: 7px;
 }
-@media screen and (max-width:480px) {
-    .image-column{
-      padding: 0;
-      width: 100%;
-    }
-    .about-row{
-      flex-direction: column;
-      margin: 0;
-      padding: 0;
-    }
-    .content-column{
-      padding: 0;
-     width: 100%;
-    }
-    .row{
-      flex-direction: column;
-      margin: 0;
-    }
+/* facts started */
+.facts-field {
+  width: 100vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 10rem;
+}
+.facts-row {
+  width: 100%;
+  align-items: center;
+  min-height: 173px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(53, 196, 139);
+  background-image: url("https://www.webdevcode.com/html/eastend/version1/images/bg/facts-bg.png");
+}
+.factsnumber h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.factsnumber h3 {
+  color: white;
+  font-size: 25px;
+}
+/* facts end */
+@media screen and (max-width: 480px) {
+  .image-column {
+    padding: 0;
+    width: 100%;
+  }
+  .about-row {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .content-column {
+    padding: 0;
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+    margin: 0;
+  }
 }

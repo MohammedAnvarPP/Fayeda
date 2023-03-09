@@ -1,38 +1,38 @@
-.Qualities-column{
-    width: 30%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+.Qualities-column {
+  width: 30%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.Qualities-field{
-    padding: 35px 40px;
-    border: 1px solid #E4E4E4;
+.Qualities-field {
+  padding: 35px 40px;
+  border: 1px solid #e4e4e4;
 }
 
-.image-fluid{
-    width: 30%;
+.image-fluid {
+  width: 30%;
 }
-.about-content-heading{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.about-content-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.about-heading{
-    margin-bottom: 15px;
-    font-size: 22px;
-    font-family: 'Poppins', sans-serif;
-    color: #375237;
+.about-heading {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: #375237;
 }
-.about-content-heading p{
-    font-size: 1em;
+.about-content-heading p {
+  font-size: 1em;
 }
-@media screen and (max-width:480px) {
-    .Qualities-column{
-        padding: 2rem;
-        width: 100%;
-    }
-    .Qualities-field{
-        padding: 0;
-    }
+@media screen and (max-width: 480px) {
+  .Qualities-column {
+    padding: 2rem;
+    width: 100%;
+  }
+  .Qualities-field {
+    padding: 0;
+  }
 }

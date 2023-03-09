@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
 import Qualities from "./Qualities";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 const AboutUs = () => {
+  const [counter, setCounter] = useState(false);
   return (
     <div className="about">
       <div className="page-banner-main-block">
@@ -47,7 +50,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="row" >
+          <div className="row">
             <Qualities
               icon="https://cdn-icons-png.flaticon.com/512/2491/2491921.png"
               heading="Our Strategy"
@@ -66,6 +69,44 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      <ScrollTrigger
+        onEnter={() => setCounter(true)}
+        onExit={() => {
+          setCounter(false);
+        }}
+      >
+        <div className="facts-row">
+          {counter && (
+            <div className="facts-field">
+              <div className="factsnumber">
+                <h1>
+                  <CountUp start={0} end={2000} duration={2} delay={0} />+
+                </h1>
+                <h3>happy customers</h3>
+              </div>
+              <div className="factsnumber">
+                <h1>
+                  <CountUp start={0} end={55} duration={2} delay={0} />+
+                </h1>
+                <h3>Countries</h3>
+              </div>
+              <div className="factsnumber">
+                <h1>
+                  <CountUp start={0} end={100} duration={2} delay={0} />%
+                </h1>
+                <h3>Satisfaction</h3>
+              </div>
+              <div className="factsnumber">
+                <h1>
+                  <CountUp start={0} end={4.5} duration={2} delay={0} />%
+                </h1>
+                <h3>reviews</h3>
+              </div>
+            </div>
+          )}
+        </div>
+      </ScrollTrigger>
+      <div>name</div>
     </div>
   );
 };
