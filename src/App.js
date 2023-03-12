@@ -1,9 +1,9 @@
-import AboutUs from "./Components/About Us/AboutUs";
+import { CountryList } from "./components/CountryList/CountryList";
 
 function App() {
   return (
     <div className="App">
-    <AboutUs/>
+      <CountryList />
     </div>
   );
 }
