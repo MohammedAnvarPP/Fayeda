@@ -3,6 +3,8 @@ import "./About.css";
 import Qualities from "./Qualities";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import Testimonial from "./Testimonial";
+import FayServices from "./FayServices";
 
 const AboutUs = () => {
   const [counter, setCounter] = useState(false);
@@ -50,7 +52,11 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+         
+        </div>
+        {/* card-qualities */}
+        <div className="row">
+        <div className="row-Quality">
             <Qualities
               icon="https://cdn-icons-png.flaticon.com/512/2491/2491921.png"
               heading="Our Strategy"
@@ -66,23 +72,25 @@ const AboutUs = () => {
               heading="Our Achievements"
               description="It is a long established fact that app reader will be distracted by the read won’t be content page."
             />
+            </div>
           </div>
-        </div>
       </section>
+      {/* facts-counter */}
+      <div className="facts-row">
       <ScrollTrigger
         onEnter={() => setCounter(true)}
         onExit={() => {
           setCounter(false);
         }}
       >
-        <div className="facts-row">
+       
           {counter && (
             <div className="facts-field">
               <div className="factsnumber">
                 <h1>
                   <CountUp start={0} end={2000} duration={2} delay={0} />+
                 </h1>
-                <h3>happy customers</h3>
+                <h3>customers</h3>
               </div>
               <div className="factsnumber">
                 <h1>
@@ -104,9 +112,15 @@ const AboutUs = () => {
               </div>
             </div>
           )}
-        </div>
+       
       </ScrollTrigger>
-      <div>name</div>
+      </div>
+      {/* testimonial  */}
+      <div className="testimonial">
+      <Testimonial/>
+      </div>
+      {/* company-services */}
+      <FayServices/>
     </div>
   );
 };

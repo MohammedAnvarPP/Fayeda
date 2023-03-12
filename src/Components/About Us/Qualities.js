@@ -2,7 +2,9 @@ import React from "react";
 import "./Qualities.css";
 const Qualities = ({ icon, heading, description }) => {
   return (
-    <div className="Qualities-column">
+   
+
+   
       <div className="Qualities-field">
         <div className="Qualities-icon">
           <img src={icon} alt="" className="image-fluid" />
@@ -12,7 +14,8 @@ const Qualities = ({ icon, heading, description }) => {
           <p>{description}</p>
         </div>
       </div>
-    </div>
+ 
+    
   );
 };
 

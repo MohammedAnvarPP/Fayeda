@@ -1,5 +1,5 @@
 .about {
-  width: 100vw;
+  width: 100%;
 }
 .page-banner-main-block {
   position: relative;
@@ -7,7 +7,7 @@
   left: 0;
   width: 100%;
   height: 300px;
-  background-image: url("https://img.freepik.com/free-photo/top-view-white-plane-green-background_23-2148971056.jpg?w=1380&t=st=1678245482~exp=1678246082~hmac=623051a1ab9b3f229fabacdfab53c5ed53f02a4d3d8f2dc9e7f466b141b22792");
+  background-image: url("./images/pngtree-simple-summer-tourism-travel-image_9073.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -44,8 +44,6 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 10px;
-  margin-left: 8rem;
 }
 .about-row {
   display: flex;
@@ -88,9 +86,18 @@ h2 {
   outline: none;
   border-radius: 7px;
 }
+.row-Quality{
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  gap: 7rem;
+}
 /* facts started */
 .facts-field {
-  width: 100vw;
+  width: 100%;
 
   display: flex;
   flex-wrap: wrap;
@@ -117,8 +124,17 @@ h2 {
 .factsnumber h3 {
   color: white;
   font-size: 25px;
+
 }
+.factsnumber{
+  width: 10rem;
+  text-align: center;
+}
+
 /* facts end */
+.testimonial{
+  background-image: url("./images/testimonial-bg.jpg");
+}
 @media screen and (max-width: 480px) {
   .image-column {
     padding: 0;
