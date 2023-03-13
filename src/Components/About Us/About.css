@@ -1,0 +1,156 @@
+.about {
+  width: 100%;
+}
+.page-banner-main-block {
+  position: relative;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-image: url("./images/pngtree-simple-summer-tourism-travel-image_9073.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.page-banner-main-block .page-banner-heading {
+  font-size: 50px;
+}
+.breadcrumb {
+  background-color: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.about-main-block-two {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-row {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 8rem;
+}
+.image-column {
+  width: 50%;
+  padding-right: 53px;
+  padding-left: 60px;
+}
+.content-column {
+  width: 50%;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-about {
+  max-width: 100%;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #234;
+  font-size: 30px;
+}
+.section p {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+}
+.btn-contact {
+  background-color: #d38e26;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  outline: none;
+  border-radius: 7px;
+}
+.row-Quality{
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  gap: 7rem;
+}
+/* facts started */
+.facts-field {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 10rem;
+}
+.facts-row {
+  width: 100%;
+  align-items: center;
+  min-height: 173px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(53, 196, 139);
+  background-image: url("https://www.webdevcode.com/html/eastend/version1/images/bg/facts-bg.png");
+}
+.factsnumber h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.factsnumber h3 {
+  color: white;
+  font-size: 25px;
+
+}
+.factsnumber{
+  width: 10rem;
+  text-align: center;
+}
+
+/* facts end */
+.testimonial{
+  background-image: url("./images/testimonial-bg.jpg");
+}
+@media screen and (max-width: 480px) {
+  .image-column {
+    padding: 0;
+    width: 100%;
+  }
+  .about-row {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .content-column {
+    padding: 0;
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+    margin: 0;
+  }
+}
