@@ -44,8 +44,14 @@
   },
   {
     "id": 8,
-    "image": "https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "title": "United State Of America",
+    "image": "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "title": "South Africa",
+    "About": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Consequuntur eligendi inLorem ipsum, dolor sit amet consectetur adipisicing elit.Consequuntur eligendi inLorem ipsum, dolor sit amet consectetur adipisicing elit.Consequuntur eligendi in"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FuYWRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "title": "Canada",
     "About": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Consequuntur eligendi inLorem ipsum, dolor sit amet consectetur adipisicing elit.Consequuntur eligendi inLorem ipsum, dolor sit amet consectetur adipisicing elit.Consequuntur eligendi in"
   }
 ]
